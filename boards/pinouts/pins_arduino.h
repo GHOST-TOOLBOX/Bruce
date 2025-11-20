@@ -22,6 +22,8 @@
 #include "../m5stack-cplus1_1/pins_arduino.h"
 #elif ARDUINO_M5STICK_C_PLUS2
 #include "../m5stack-cplus2/pins_arduino.h"
+#elif GHOST_BOARD
+#include "../Ghost/pins_arduino.h"
 #elif ESP32S3DEVKITC1
 #include "../ESP-General/pins_arduino.h"
 #elif SMOOCHIEE_BOARD
